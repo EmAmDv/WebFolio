@@ -81,17 +81,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.3rem 8.6rem;
+    padding: 0.5rem 3.2rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
 
-nav a {
+nav li a {
     transition: var(--transition);
 }
 
-nav a:hover {
+nav li a:hover {
     border-bottom: 2px solid var(--secondary-color);
 }
 
@@ -103,6 +103,19 @@ nav ul {
 nav ul li {
     font-weight: var(--bold-font);
     font-size: 20px;
+    padding-top: 0.8rem;
+}
+
+nav img {
+    width: 2.5rem;
+    position: relative;
+    right: 1.5rem;
+    top: 0.2rem;
+}
+
+nav img:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .profile {
