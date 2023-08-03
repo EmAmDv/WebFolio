@@ -106,10 +106,28 @@ nav ul li {
     padding-top: 0.8rem;
 }
 
+.burger-menu {
+    color: var(--primary-color);
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.burger-menu img {
+    position: relative;
+    right: 0rem;
+    top: 0rem;
+    max-width: 50%;
+}
+
 nav img {
     width: 2.5rem;
     position: relative;
-    right: 1.5rem;
+    right: 0rem;
     top: 0.2rem;
 }
 
@@ -296,6 +314,7 @@ footer {
 .modal div {
     color: #ccc;
     padding: 10px;
+    text-align: center;
 }
 
 .closeBtn {
@@ -311,4 +330,126 @@ footer {
 
 .closeBtn:hover {
     color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 720px) {
+
+    nav {
+        padding: 0.5rem 0.2rem;
+    }
+
+    nav ul {
+        position: fixed;
+        background-color: rgb(241, 241, 241);
+        border-radius: 10px;
+        flex-direction: column;
+        top: 74px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        border:rgba(0, 0, 0, 0.1);
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+    
+    nav ul li {
+        margin: 8px;
+    }
+    
+    .burger-menu {
+        display: block;
+    }
+    
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .background-img {
+        max-width: 250%;
+    }
+
+    .profile {
+        margin-top: -15rem;
+        margin-left: -4.9rem;
+        width: 18rem;
+    }
+
+    .skill-icon {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .skills {
+        margin-top: -20rem;
+        margin-left: -4.9rem;
+        width: 18rem;
+    }
+
+    .skills-anchor {
+        position: absolute;
+        bottom: 33.5rem;
+    }
+
+    .skills span {
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: -5.25rem;
+        border-radius: 10px;
+        width: 4rem;
+    }
+
+    .projects {
+        margin-top: -20rem;
+        margin-left: -4.5rem;
+        width: 18rem;
+    }
+
+    .projects-anchor {
+        position: absolute;
+        top: -4.5rem;
+    }
+    
+    .projects-container {
+        margin-left: -1.5rem;
+    }
+
+    .project-card {
+        width: 10.5rem;
+        height: 10.5rem;
+    }
+
+    .project-card img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    .modal img {
+        padding-top: 6rem;
+        width: 90%;
+    }
+
+    .contact {
+        margin-top: -15rem;
+        margin-left: -9.0rem;
+        width: 18rem;
+    }
+
+    .contact-anchor {
+        position: absolute;
+        top: -8.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+
 }
