@@ -450,6 +450,139 @@ footer {
     
 }
 
-/* @media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
 
-} */
+    .background-img {
+        max-width: 380%;
+    }
+
+    nav {
+        padding: 0rem 0.2rem;
+    }
+
+    .scroll-up {
+        display: none;
+    }
+
+    nav ul {
+        top: 64px;
+        height: 80%;
+    }
+
+    nav ul a {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+    nav ul li {
+        margin: -12px;
+    }
+
+    .profile {
+        margin-top: -19rem;
+        margin-left: -8.4rem;
+        width: 10rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .skill-icon {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    .skills {
+        margin-top: -20rem;
+        margin-left: -10.3rem;
+        width: 14rem;
+    }
+
+    .skills h2 {
+        width: 10rem;
+        margin-left: 1.9rem;
+    }
+
+    .skills span {
+        position: absolute;
+        margin-top: 4rem;
+        margin-left: -3.8rem;
+        border-radius: 10px;
+        width: 3rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .skills-anchor {
+        position: absolute;
+        bottom: 24.5rem;
+    }
+
+    .projects {
+        margin-top: -20rem;
+        margin-left: -4.5rem;
+        width: 10rem;
+    }
+
+    .projects h2 {
+        margin-left: -3.9rem;
+        width: 10rem;
+    }
+
+    .projects h3 {
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+        margin-left: -0.4rem;
+    }
+
+    .projects-container {
+        margin-left: -5.2rem;
+    }
+
+    .project-card {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .project-card img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .projects-anchor {
+        position: absolute;
+        top: -3.5rem;
+    }
+
+    .contact {
+        margin-top: -15rem;
+        margin-left: -14.4rem;
+        width: 12rem;
+    }
+
+    .contact a {
+        margin-left: -0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .contact-anchor {
+        position: absolute;
+        top: -8.5rem;
+    }
+
+    footer {
+        margin-top: 120rem;
+    }
+
+    /* .modal img {
+        padding-top: 6rem;
+        width: 90%;
+    } 
+    */
+
+}
