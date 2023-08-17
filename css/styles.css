@@ -335,6 +335,7 @@ footer {
 @media screen and (max-width: 720px) {
 
     nav {
+        position: sticky;
         padding: 0.5rem 0.2rem;
     }
 
@@ -457,6 +458,7 @@ footer {
     }
 
     nav {
+        position: sticky;
         padding: 0.3rem 0.2rem;
     }
 
