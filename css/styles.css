@@ -465,6 +465,7 @@ footer {
     }
 
     nav ul {
+        position: fixed;
         top: 64px;
         height: 80%;
     }
