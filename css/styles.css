@@ -311,6 +311,11 @@ footer {
     width: 70%;
 }
 
+. modal img[src$="6fs.jpg"] {
+    padding-top: 6rem;
+    width: 95%;
+}
+
 .modal div {
     color: #ccc;
     padding: 10px;
