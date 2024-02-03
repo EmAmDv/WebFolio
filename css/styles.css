@@ -316,11 +316,6 @@ footer {
     width: 90%;
 }
 
-.modal img[src$="3fs.jpg"] {
-    padding-top: 6rem;
-    width: 75%;
-}
-
 .modal img[src$="4fs.jpg"] {
     padding-top: 6rem;
     width: 80%;
